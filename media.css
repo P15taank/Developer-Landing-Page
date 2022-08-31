@@ -32,14 +32,10 @@ display: none;
 /* header image */
 .himg
 {    
-  /* margin-left: 0px;
-    margin-top: 70px; */
+
    display: none;
 }
-/* .header-image {
-  float: right;
-  width: 100%;
-} */
+
 
 /* Companies  */
 .companies {
@@ -133,8 +129,9 @@ flex-direction: column;
     padding: 10px;
 }
 /* Download */
-.download-section {
-  display: flex;
+.download-section 
+{
+display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -146,47 +143,18 @@ flex-direction: column;
 {
     margin: 10px;
 }
-.download-content h1 {
-  font-size: 35px;
-  font-weight: 900;
-}
-.download-content span {
-  font-size: 35px;
-  font-weight: 400;
-}
+
 .download-email {
   height: 100%;
   width: 100%;
-  background-color: #000;
-  background-color: rgb(223, 232, 241);
-  border-radius: 25px;
 }
 .download-email input {
-  float: left;
-  margin-top: 15px;
   margin-left: 0px;
-  border: none;
-  background-color: transparent;
-  text-align: center;
+
 }
 .download-email ::placeholder {
-  font-size: 10px;
-  font-weight: 600;
-  color: #000;
-  border: none;
-
-}
-.download-email button {
-  float: right;
-  border: none;
-  background-color: #5a31fc;
-  color: #fff;
-  border-radius: 20px;
-  padding: 14px;
-  width: 130px;
-  text-align: center;
-
-
+  font-size: 12px;
+padding: 10px;
 }
 
 /* footer */
@@ -195,38 +163,21 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #5a31fc;
-  height: 100%;
   width: 100%;
 }
 /* footer left */
 .footer-left
 {
- margin-top: 70px;
  margin-left: 0px;
 }
 .footer-logo
 {
 margin-left: 10px;
 }
-.list {
-  display: flex;
-  padding: 20px;
-
-}
-.list-items {
-  margin-left: 20px;
-  color: #fff;
-  list-style: none;
- 
-}
-
 /* footer right */
 
 .footer-right
 {
-  /* margin-top: 45px;
- margin-right: 110px; */
  display: none;
 }
 .footer-logos
@@ -234,12 +185,5 @@ margin-left: 10px;
   margin-left: 30px;
 
 }
-.logos-list
-{
-  display: flex;
-}
-.list-items
-{
-padding: 2px;
-}
+
 }
