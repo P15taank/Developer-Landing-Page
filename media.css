@@ -21,23 +21,25 @@ display: none;
 }
 /* header text */
 .header-text {
-
+  width: 100%;
   margin-left: 20px;
   margin-top: 50px;
   padding: 20px;
-  font-size: 10px;
+  font-size: 18px;
   
 }
-.himg
-{    margin-left: 0px;
-    margin-top: 70px;
-   
-}
+
 /* header image */
-.header-image {
+.himg
+{    
+  /* margin-left: 0px;
+    margin-top: 70px; */
+   display: none;
+}
+/* .header-image {
   float: right;
   width: 100%;
-}
+} */
 
 /* Companies  */
 .companies {
