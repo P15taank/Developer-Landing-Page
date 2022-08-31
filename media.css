@@ -153,7 +153,7 @@ flex-direction: column;
   font-weight: 400;
 }
 .download-email {
-  height: 45px;
+  height: 100%;
   width: 100%;
   background-color: #000;
   background-color: rgb(223, 232, 241);
@@ -162,15 +162,17 @@ flex-direction: column;
 .download-email input {
   float: left;
   margin-top: 15px;
-  margin-left: 40px;
+  margin-left: 0px;
   border: none;
   background-color: transparent;
   text-align: center;
 }
 .download-email ::placeholder {
+  font-size: 10px;
   font-weight: 600;
   color: #000;
   border: none;
+
 }
 .download-email button {
   float: right;
@@ -181,6 +183,8 @@ flex-direction: column;
   padding: 14px;
   width: 130px;
   text-align: center;
+
+
 }
 
 /* footer */
